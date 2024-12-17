@@ -228,9 +228,7 @@ def stock_prediction():
         st.write(f"The predicted future price for {stock} is higher than the current price. It may be a good idea to consider buying this stock.")
     else:
         st.write(f"The predicted future price for {stock} is lower than or close to the current price. It may be better to wait or look for other opportunities.")
-   
-    st.write("Always consult with a financial advisor before making investment decisions.")
- 
+    
 # Real-time stock data display
 def real_time_stock():
     st.header('Real-Time Stock Data')
